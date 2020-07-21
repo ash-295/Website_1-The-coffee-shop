@@ -500,6 +500,7 @@ background-color: var(--color1);
     padding-top: 1.5rem;
     width: 50%;
     margin: auto;
+    text-align: center;
 }
 
 .button-container{
@@ -650,6 +651,13 @@ footer p{
     #welcome .welcome-text{
         display: none;
     }
+
+    footer .upper{
+        flex-direction:column;
+    }
+
+    footer .social{
+        grid-template-columns: repeat(4, 1fr);
 }
 
 @media (max-width: 450px){
